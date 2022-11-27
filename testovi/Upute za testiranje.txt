@@ -1,0 +1,20 @@
+1. Potrebno je promijeniti DataContext string iz appsettings.json fajla u "Server=MYSQL8001.site4now.net;Database=db_a85412_osaric1;Uid=a85412_osaric1;Pwd=omaromar1".
+
+2. Pokrenuti solution i logovati se kao administrator te kopirati token iz local storage-a.
+
+3. Unutar s1_testovi.js fajla u varijablu token upisati novi token.
+
+4. Pokrenuti sljedeće naredbe u cmd-u: 
+npm init
+npm install --save sequelize-cli
+npm install --save sequelize
+npm install --save mysql2
+npm install --save prompt-sync
+npm install --save mocha
+npm install --save chai
+npm install --save chai-http
+
+Testovi se pokreću naredbom npm test s1_testovi.js
+
+5. Nakon testiranja vratiti connectionString na prethodnu vrijednost 
+

@@ -1,0 +1,45 @@
+.hide {
+  display: none;
+}
+
+.form {
+  border: 1px solid blue;
+  display: flex;
+  border-radius: 5px;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max(50%, 20rem);
+  margin: auto;
+  background-color: white;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+  gap: 10px;
+}
+.input {
+  border: 1px solid #ddd;
+  padding: 0.4rem 0.5rem;
+  border-radius: 5px;
+}
+.input:focus {
+  outline: 3px solid rgb(158, 207, 232);
+}
+.label {
+  font-size: smaller;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+.title {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 2rem;
+}
